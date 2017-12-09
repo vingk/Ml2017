@@ -1,0 +1,482 @@
+(10299, 561)
+(10299,)
+Run number: 0 
+DecisionTree
+(10299, 561)
+(10299,)
+Run number: 0 
+DecisionTree
+{'min_samples_split': 4, 'min_impurity_decrease': 0.0001, 'max_depth': 561, 'class_weight': 'balanced'}
+0.923983909003
+0.931391585761
+             precision    recall  f1-score   support
+
+        1.0       0.95      0.95      0.95       527
+        2.0       0.92      0.90      0.91       457
+        3.0       0.91      0.92      0.91       404
+        4.0       0.88      0.92      0.90       522
+        5.0       0.92      0.89      0.91       585
+        6.0       1.00      1.00      1.00       595
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 0.01, 'hidden_layer_sizes': (5,)}
+0.974060202525
+0.977346278317
+             precision    recall  f1-score   support
+
+        1.0       0.99      1.00      1.00       527
+        2.0       1.00      1.00      1.00       457
+        3.0       1.00      1.00      1.00       404
+        4.0       0.93      0.95      0.94       522
+        5.0       0.96      0.93      0.94       585
+        6.0       1.00      1.00      1.00       595
+
+avg / total       0.98      0.98      0.98      3090
+
+NaiveBayes
+{}
+0.680676931613
+0.662459546926
+             precision    recall  f1-score   support
+
+        1.0       0.91      0.73      0.81       527
+        2.0       0.69      0.89      0.78       457
+        3.0       0.78      0.77      0.78       404
+        4.0       0.41      0.92      0.56       522
+        5.0       0.82      0.22      0.35       585
+        6.0       0.97      0.56      0.71       595
+
+avg / total       0.77      0.66      0.65      3090
+
+Run number: 1 
+DecisionTree
+{'min_samples_split': 4, 'min_impurity_decrease': 0.0, 'max_depth': 9, 'class_weight': 'balanced'}
+0.923983909003
+0.922006472492
+             precision    recall  f1-score   support
+
+        1.0       0.93      0.92      0.92       524
+        2.0       0.89      0.93      0.91       480
+        3.0       0.93      0.90      0.92       415
+        4.0       0.90      0.86      0.88       533
+        5.0       0.88      0.91      0.90       581
+        6.0       1.00      1.00      1.00       557
+
+avg / total       0.92      0.92      0.92      3090
+
+NeuralNetworks
+{'alpha': 0.001, 'hidden_layer_sizes': (100,)}
+0.970314884173
+0.977346278317
+             precision    recall  f1-score   support
+
+        1.0       0.99      0.99      0.99       524
+        2.0       0.99      1.00      1.00       480
+        3.0       0.99      1.00      0.99       415
+        4.0       0.94      0.94      0.94       533
+        5.0       0.95      0.95      0.95       581
+        6.0       0.99      1.00      1.00       557
+
+avg / total       0.98      0.98      0.98      3090
+
+NaiveBayes
+{}
+0.744347343598
+0.719417475728
+             precision    recall  f1-score   support
+
+        1.0       0.90      0.72      0.80       524
+        2.0       0.68      0.90      0.78       480
+        3.0       0.79      0.73      0.76       415
+        4.0       0.49      0.88      0.63       533
+        5.0       0.73      0.25      0.38       581
+        6.0       0.99      0.88      0.93       557
+
+avg / total       0.77      0.72      0.71      3090
+
+Run number: 2 
+DecisionTree
+{'min_samples_split': 8, 'min_impurity_decrease': 0.001, 'max_depth': 561, 'class_weight': 'balanced'}
+0.927174365377
+0.926860841424
+             precision    recall  f1-score   support
+
+        1.0       0.94      0.93      0.93       544
+        2.0       0.86      0.90      0.88       419
+        3.0       0.93      0.90      0.91       409
+        4.0       0.94      0.86      0.90       531
+        5.0       0.88      0.95      0.91       576
+        6.0       1.00      1.00      1.00       611
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 1e-05, 'hidden_layer_sizes': (284,)}
+0.969482591205
+0.873139158576
+             precision    recall  f1-score   support
+
+        1.0       1.00      0.99      1.00       544
+        2.0       1.00      0.99      0.99       419
+        3.0       0.99      1.00      1.00       409
+        4.0       1.00      0.28      0.44       531
+        5.0       0.60      1.00      0.75       576
+        6.0       0.99      0.99      0.99       611
+
+avg / total       0.92      0.87      0.85      3090
+
+NaiveBayes
+{}
+0.766264391733
+0.750809061489
+             precision    recall  f1-score   support
+
+        1.0       0.93      0.72      0.81       544
+        2.0       0.65      0.94      0.77       419
+        3.0       0.80      0.72      0.76       409
+        4.0       0.54      0.88      0.67       531
+        5.0       0.80      0.35      0.49       576
+        6.0       0.99      0.94      0.96       611
+
+avg / total       0.79      0.75      0.74      3090
+
+Run number: 3 
+DecisionTree
+{'min_samples_split': 2, 'min_impurity_decrease': 0.001, 'max_depth': 561, 'class_weight': 'balanced'}
+0.928284089333
+0.929126213592
+             precision    recall  f1-score   support
+
+        1.0       0.93      0.94      0.93       511
+        2.0       0.91      0.88      0.89       444
+        3.0       0.90      0.92      0.91       423
+        4.0       0.90      0.91      0.90       516
+        5.0       0.92      0.91      0.92       585
+        6.0       1.00      1.00      1.00       611
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 0.01, 'hidden_layer_sizes': (561,)}
+0.968927729227
+0.977346278317
+             precision    recall  f1-score   support
+
+        1.0       1.00      0.99      1.00       511
+        2.0       1.00      0.98      0.99       444
+        3.0       0.98      1.00      0.99       423
+        4.0       0.92      0.97      0.94       516
+        5.0       0.97      0.93      0.95       585
+        6.0       1.00      1.00      1.00       611
+
+avg / total       0.98      0.98      0.98      3090
+
+NaiveBayes
+{}
+0.785407129976
+0.806472491909
+             precision    recall  f1-score   support
+
+        1.0       0.93      0.73      0.82       511
+        2.0       0.70      0.89      0.78       444
+        3.0       0.76      0.78      0.77       423
+        4.0       0.67      0.84      0.75       516
+        5.0       0.84      0.69      0.76       585
+        6.0       0.99      0.91      0.95       611
+
+avg / total       0.83      0.81      0.81      3090
+
+Run number: 4 
+DecisionTree
+{'min_samples_split': 2, 'min_impurity_decrease': 0.001, 'max_depth': None, 'class_weight': 'balanced'}
+0.93064225274
+0.929773462783
+             precision    recall  f1-score   support
+
+        1.0       0.95      0.91      0.93       532
+        2.0       0.89      0.93      0.91       473
+        3.0       0.93      0.92      0.93       435
+        4.0       0.89      0.90      0.90       509
+        5.0       0.92      0.91      0.91       589
+        6.0       1.00      1.00      1.00       552
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 0.01, 'hidden_layer_sizes': (100,)}
+0.973366625052
+0.976051779935
+             precision    recall  f1-score   support
+
+        1.0       0.99      1.00      0.99       532
+        2.0       0.99      1.00      0.99       473
+        3.0       1.00      0.99      1.00       435
+        4.0       0.94      0.93      0.93       509
+        5.0       0.94      0.95      0.94       589
+        6.0       1.00      1.00      1.00       552
+
+avg / total       0.98      0.98      0.98      3090
+
+NaiveBayes
+{}
+0.706755444583
+0.7
+             precision    recall  f1-score   support
+
+        1.0       0.94      0.76      0.84       532
+        2.0       0.72      0.92      0.81       473
+        3.0       0.79      0.80      0.79       435
+        4.0       0.43      0.87      0.58       509
+        5.0       0.82      0.41      0.55       589
+        6.0       0.98      0.53      0.69       552
+
+avg / total       0.79      0.70      0.70      3090
+
+Run number: 5 
+DecisionTree
+{'min_samples_split': 4, 'min_impurity_decrease': 0.001, 'max_depth': None, 'class_weight': 'balanced'}
+0.925787210431
+0.931391585761
+             precision    recall  f1-score   support
+
+        1.0       0.95      0.95      0.95       508
+        2.0       0.90      0.91      0.91       457
+        3.0       0.93      0.92      0.92       416
+        4.0       0.88      0.91      0.89       512
+        5.0       0.92      0.89      0.90       571
+        6.0       1.00      1.00      1.00       626
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 0.0001, 'hidden_layer_sizes': (100,)}
+0.969760022194
+0.963106796117
+             precision    recall  f1-score   support
+
+        1.0       0.99      1.00      1.00       508
+        2.0       1.00      0.99      1.00       457
+        3.0       0.99      1.00      0.99       416
+        4.0       0.98      0.81      0.89       512
+        5.0       0.85      0.99      0.92       571
+        6.0       1.00      1.00      1.00       626
+
+avg / total       0.97      0.96      0.96      3090
+
+NaiveBayes
+{}
+0.74101817173
+0.743042071197
+             precision    recall  f1-score   support
+
+        1.0       0.92      0.76      0.83       508
+        2.0       0.69      0.93      0.79       457
+        3.0       0.80      0.75      0.78       416
+        4.0       0.50      0.90      0.64       512
+        5.0       0.84      0.32      0.46       571
+        6.0       0.99      0.85      0.91       626
+
+avg / total       0.80      0.74      0.74      3090
+
+Run number: 6 
+DecisionTree
+{'min_samples_split': 2, 'min_impurity_decrease': 0.0001, 'max_depth': 9, 'class_weight': 'balanced'}
+0.926758218893
+0.925566343042
+             precision    recall  f1-score   support
+
+        1.0       0.94      0.92      0.93       527
+        2.0       0.89      0.90      0.90       468
+        3.0       0.93      0.93      0.93       426
+        4.0       0.88      0.90      0.89       518
+        5.0       0.91      0.89      0.90       580
+        6.0       1.00      1.00      1.00       571
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 1e-05, 'hidden_layer_sizes': (100,)}
+0.972950478568
+0.976375404531
+             precision    recall  f1-score   support
+
+        1.0       0.99      1.00      1.00       527
+        2.0       1.00      1.00      1.00       468
+        3.0       1.00      1.00      1.00       426
+        4.0       0.96      0.91      0.93       518
+        5.0       0.92      0.97      0.94       580
+        6.0       1.00      1.00      1.00       571
+
+avg / total       0.98      0.98      0.98      3090
+
+NaiveBayes
+{}
+0.756276876127
+0.739805825243
+             precision    recall  f1-score   support
+
+        1.0       0.89      0.72      0.79       527
+        2.0       0.70      0.91      0.79       468
+        3.0       0.80      0.76      0.78       426
+        4.0       0.51      0.88      0.65       518
+        5.0       0.79      0.33      0.47       580
+        6.0       0.99      0.89      0.94       571
+
+avg / total       0.78      0.74      0.73      3090
+
+Run number: 7 
+DecisionTree
+{'min_samples_split': 4, 'min_impurity_decrease': 0.0, 'max_depth': None, 'class_weight': 'balanced'}
+0.927313080871
+0.928155339806
+             precision    recall  f1-score   support
+
+        1.0       0.92      0.96      0.94       489
+        2.0       0.93      0.89      0.91       447
+        3.0       0.92      0.92      0.92       415
+        4.0       0.88      0.90      0.89       544
+        5.0       0.91      0.89      0.90       601
+        6.0       1.00      1.00      1.00       594
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 0.01, 'hidden_layer_sizes': (100,)}
+0.972811763074
+0.974110032362
+             precision    recall  f1-score   support
+
+        1.0       1.00      0.99      1.00       489
+        2.0       1.00      1.00      1.00       447
+        3.0       1.00      1.00      1.00       415
+        4.0       0.97      0.88      0.93       544
+        5.0       0.91      0.98      0.94       601
+        6.0       1.00      1.00      1.00       594
+
+avg / total       0.98      0.97      0.97      3090
+
+NaiveBayes
+{}
+0.741989180191
+0.754045307443
+             precision    recall  f1-score   support
+
+        1.0       0.91      0.71      0.79       489
+        2.0       0.68      0.89      0.77       447
+        3.0       0.76      0.76      0.76       415
+        4.0       0.56      0.88      0.68       544
+        5.0       0.84      0.49      0.62       601
+        6.0       0.99      0.84      0.91       594
+
+avg / total       0.80      0.75      0.75      3090
+
+Run number: 8 
+DecisionTree
+{'min_samples_split': 2, 'min_impurity_decrease': 0.001, 'max_depth': 561, 'class_weight': 'balanced'}
+0.922180607574
+0.933333333333
+             precision    recall  f1-score   support
+
+        1.0       0.94      0.94      0.94       481
+        2.0       0.92      0.92      0.92       452
+        3.0       0.92      0.93      0.93       411
+        4.0       0.92      0.87      0.89       534
+        5.0       0.90      0.93      0.91       615
+        6.0       1.00      1.00      1.00       597
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 0.0001, 'hidden_layer_sizes': (284,)}
+0.972118185601
+0.970550161812
+             precision    recall  f1-score   support
+
+        1.0       0.99      0.99      0.99       481
+        2.0       0.98      1.00      0.99       452
+        3.0       1.00      0.99      1.00       411
+        4.0       0.97      0.87      0.92       534
+        5.0       0.91      0.97      0.94       615
+        6.0       1.00      1.00      1.00       597
+
+avg / total       0.97      0.97      0.97      3090
+
+NaiveBayes
+{}
+0.695242058538
+0.680906148867
+             precision    recall  f1-score   support
+
+        1.0       0.90      0.74      0.81       481
+        2.0       0.73      0.92      0.82       452
+        3.0       0.80      0.78      0.79       411
+        4.0       0.42      0.92      0.58       534
+        5.0       0.81      0.20      0.33       615
+        6.0       0.98      0.66      0.79       597
+
+avg / total       0.78      0.68      0.67      3090
+
+Run number: 9 
+DecisionTree
+{'min_samples_split': 4, 'min_impurity_decrease': 0.001, 'max_depth': None, 'class_weight': 'balanced'}
+0.925925925926
+0.931391585761
+             precision    recall  f1-score   support
+
+        1.0       0.94      0.95      0.94       528
+        2.0       0.91      0.92      0.91       438
+        3.0       0.93      0.91      0.92       435
+        4.0       0.87      0.91      0.89       488
+        5.0       0.92      0.89      0.91       602
+        6.0       1.00      1.00      1.00       599
+
+avg / total       0.93      0.93      0.93      3090
+
+NeuralNetworks
+{'alpha': 0.001, 'hidden_layer_sizes': (100,)}
+0.972673047579
+0.97216828479
+             precision    recall  f1-score   support
+
+        1.0       1.00      1.00      1.00       528
+        2.0       1.00      1.00      1.00       438
+        3.0       1.00      1.00      1.00       435
+        4.0       0.97      0.85      0.91       488
+        5.0       0.89      0.98      0.93       602
+        6.0       1.00      1.00      1.00       599
+
+avg / total       0.97      0.97      0.97      3090
+
+NaiveBayes
+{}
+0.777777777778
+0.763106796117
+             precision    recall  f1-score   support
+
+        1.0       0.93      0.72      0.81       528
+        2.0       0.67      0.92      0.77       438
+        3.0       0.79      0.76      0.78       435
+        4.0       0.54      0.92      0.68       488
+        5.0       0.90      0.36      0.51       602
+        6.0       0.99      0.96      0.98       599
+
+avg / total       0.82      0.76      0.75      3090
+
+Errors across 10 runs for DecisionTree
+[ 0.93139159  0.92200647  0.92686084  0.92912621  0.92977346  0.93139159
+  0.92556634  0.92815534  0.93333333  0.93139159]
+Errors across 10 runs for NeuralNetworks
+[ 0.97734628  0.97734628  0.87313916  0.97734628  0.97605178  0.9631068
+  0.9763754   0.97411003  0.97055016  0.97216828]
+Errors across 10 runs for NaiveBayes
+[ 0.66245955  0.71941748  0.75080906  0.80647249  0.7         0.74304207
+  0.73980583  0.75404531  0.68090615  0.7631068 ]
+Performing statitical tests on the data
+T test for Neural Network & Naive Bayes
+Ttest_indResult(statistic=-13.777130553990636, pvalue=1.4173565149195272e-10)
+T test for Neural Network & Naive Bayes
+Ttest_indResult(statistic=-3.4099413994744929, pvalue=0.0075084365300908751)
+T test for Neural Network & Naive Bayes
+Ttest_indResult(statistic=-14.645013587705037, pvalue=1.2147579526518634e-07)
